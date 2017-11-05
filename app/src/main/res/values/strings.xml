@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name" translatable="false">RealmDemo</string>
+    <string name="birthday" translatable="false" />
+    <string name="custom_hint_password"><font size="15">Confirm password</font></string>
+    <string name="pick_image_intent_text">Joo-o</string>
+    <string name="str_login">Login</string>
+    <string name="str_dont_have_an_account">"Don\'t have an account? "</string>
+    <string name="str_sandbox" translatable="false">SandBox</string>
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_remember_me">Remember me</string>
+    <string name="str_auto_login">Stay logged in</string>
+    <string name="str_register_here"><![CDATA[<font color=\'blue\'><u>Register here!</u></font>]]></string>
+    <string name="str_register_a_new_account">Register a new account</string>
+    <string name="str_date_of_birth">Date of Birth</string>
+    <string name="str_forename">Forename</string>
+    <string name="str_lastname">Lastname</string>
+    <string name="str_confirm_password">Confirm password</string>
+    <string name="str_email">Email</string>
+    <string name="str_confirm_email">Confirm email</string>
+    <string name="str_gender">Gender</string>
+    <string name="str_male">Male</string>
+    <string name="str_female">Female</string>
+    <string name="str_phone_number">Phone number</string>
+    <string name="str_offer_sandbox">I would like to receive offers from the Sandbox!</string>
+    <string name="str_accept_tos">I accept to these</string>
+    <string name="str_tos"><![CDATA[<font color="blue"><u>Terms of Service</u></font>]]></string>
+    <string name="str_register">Register</string>
+    <string name="str_age">Age</string>
+    <string name="str_country">Country</string>
+    <string name="str_welcome_to_profile">Welcome to your profile, </string>
+    <string name="str_change_password">Change password</string>
+    <string name="str_log_out">Log Out</string>
+    <string name="str_password_must_contain">Password must contain all of these:\nAt least one symbol\nAt least one small letter\nAt least one capital letter\nAt least one number\nAt least 6 letters long</string>
+    <string name="str_username_empty">Username is empty!\n</string>
+    <string name="str_date_of_birth_empty">Date of Birth has not been set!\n</string>
+    <string name="str_password_empty">Password is empty!\n</string>
+    <string name="str_phone_number_empty">Phone number is empty!\n</string>
+    <string name="str_email_empty">Email is empty!\n</string>
+    <string name="str_forename_empty">Forename may not be empty!\n</string>
+    <string name="str_lastname_empty">Lastname may not be empty!\n</string>
+    <string name="str_email_invalid">Email is invalid!\n</string>
+    <string name="str_phone_number_invalid">Phone number is invalid!\n</string>
+    <string name="str_under_age">You need to be at least 13 years old to use this Sandbox!\n</string>
+    <string name="str_passwords_dont_match">Passwords do not match!\n</string>
+    <string name="str_emails_dont_match">Emails do not match!\n</string>
+    <string name="str_not_accepted_tos">You did not accept the Terms of Service!\n</string>
+    <string name="str_forename_only_letters">Forename may only contain letters!\n</string>
+    <string name="str_lastname_only_letters">Lastname may only contain letters!\n</string>
+    <string name="str_username_taken">Username has been already taken!\n</string>
+    <string name="str_email_taken">Email has been already taken!\n</string>
+    <string name="str_phone_number_taken">Phone number has been already taken!\n</string>
+    <string name="str_account_created">Account successfully created!</string>
+    <string name="str_account_failed">Account creation failed!\n</string>
+    <string name="str_incorrect_credentials">Username or Password incorrect!</string>
+
+</resources>

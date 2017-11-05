@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_password">Salasana</string>
+    <string name="str_register_here"><![CDATA[<font color=\'blue\'><u>Rekisteröidy tästä!</u></font>]]></string>
+    <string name="str_remember_me">Muista minut</string>
+    <string name="str_username">Käyttäjänimi</string>
+    <string name="str_confirm_email">Vahvista sähköposti</string>
+    <string name="str_confirm_password">Vahvista salasana</string>
+    <string name="str_date_of_birth">Syntymäpäivä</string>
+    <string name="str_email">Sähköposti</string>
+    <string name="str_female">Nainen</string>
+    <string name="str_forename">Etunimi</string>
+    <string name="str_gender">Sukupuoli</string>
+    <string name="str_lastname">Sukunimi</string>
+    <string name="str_male">Mies</string>
+    <string name="str_register_a_new_account">Rekisteröi uusi käyttäjätili</string>
+    <string name="str_accept_tos">Hyväksyn nämä</string>
+    <string name="str_age">Ikä</string>
+    <string name="str_change_password">Vaihda salasana</string>
+    <string name="str_country">Valtio</string>
+    <string name="str_log_out">Kirjaudu ulos</string>
+    <string name="str_offer_sandbox">Haluan vastaanottaa tarjouksia Sandboxilta!</string>
+    <string name="str_phone_number">Puhelinnumero</string>
+    <string name="str_register">Rekisteröidy</string>
+    <string name="str_tos"><![CDATA[<font color="blue"><u>Käyttöehdot</u></font>]]></string>
+    <string name="str_welcome_to_profile">"Tervetuloa profiiliisi, "</string>
+    <string name="str_dont_have_an_account">"Eikö sinulla ole käyttäjää? "</string>
+    <string name="str_login">Kirjaudu</string>
+    <string name="pick_image_intent_text">Joo-o</string>
+    <string name="custom_hint_password"><font size="15">Vahvista salasana</font></string>
+    <string name="str_password_must_contain">Salasanassa täytyy olla vähintään nämä:\\nYksi symboli\\nYksi pieni kirjain\\nYksi iso kirjain\\nYksi numeror\\nPituudeltaan 6 merkkiä tai yli</string>
+    <string name="str_account_created">Käyttäjä luotu!</string>
+    <string name="str_account_failed">Käyttäjän luomisessa ilmeni virhe!</string>
+    <string name="str_date_of_birth_empty">Syntymäpäivää ei ole määritetty!</string>
+    <string name="str_email_empty">Tyhjä sähköposti!</string>
+    <string name="str_email_invalid">Epäkelvollinen sähköposti!</string>
+    <string name="str_email_taken">Sähköposti on jo toisen henkilön käytössä!</string>
+    <string name="str_emails_dont_match">Sähköpostit eivät täsmää!</string>
+    <string name="str_forename_empty">Etunimi ei voi olla tyhjä!</string>
+    <string name="str_forename_only_letters">Etunimessä voi olla vain kirjaimia!</string>
+    <string name="str_lastname_empty">Sukunimi ei voi olla tyhjä!</string>
+    <string name="str_lastname_only_letters">Sukunimessä voi olla vain kirjaimia!</string>
+    <string name="str_not_accepted_tos">Et hyväksynyt käyttöehtoja!</string>
+    <string name="str_password_empty">Salasana on tyhjä!</string>
+    <string name="str_passwords_dont_match">Salasanat eivät täsmää!</string>
+    <string name="str_phone_number_empty">Puhelinnumero on tyhjä!</string>
+    <string name="str_phone_number_invalid">Epäkelvollinen puhelinnumero!</string>
+    <string name="str_phone_number_taken">Puhelinnumero on jo toisen henkilön käytössä!</string>
+    <string name="str_under_age">Sinun pitää olla vähintään 13 vuotias tämän Sandboxin käyttämiseen!</string>
+    <string name="str_username_empty">Käyttäjänimi on tyhjä!</string>
+    <string name="str_username_taken">Käyttäjänimi on jo toisen henkilön käytössä!</string>
+    <string name="str_incorrect_credentials">Käyttäjänimi tai Salasana väärä!</string>
+    <string name="str_login_successful">Onnistunut sisäänkirjautuminen!</string>
+    <string name="str_auto_login">Pysy sisäänkirjautuneena</string>
+</resources>

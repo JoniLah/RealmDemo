@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rootLayoutRegister"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:focusable="true"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:weightSum="1"><![CDATA[
+        tools:context="com.example.joni.realmdemo.Register">
+
+
+        ]]>
+
+        <TextView
+            android:id="@+id/texRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register a new account" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputRegisterUsername"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:singleLine="true"
+                app:met_floatingLabel="normal"
+                app:met_maxCharacters="12" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputDate"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:clickable="true"
+                android:focusable="false"
+                android:onClick="showDatePickerDialog"
+                android:text="@string/birthday"
+                android:hint="Date of birth"
+                android:inputType="none"
+                app:met_floatingLabel="normal"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputRegisterForename"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="Forename"
+                app:met_floatingLabel="normal" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputRegisterLastname"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="Lastname"
+                app:met_floatingLabel="normal" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputRegisterPassword"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                app:met_floatingLabel="normal" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputConfirmPassword"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/custom_hint_password"
+                android:inputType="textPassword"
+                app:met_floatingLabel="normal" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputEmail"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                app:met_floatingLabel="normal" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputConfirmEmail"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="Confirm email"
+                android:inputType="textEmailAddress"
+                app:met_floatingLabel="normal" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texGender"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gender" />
+
+                <Spinner
+                    android:id="@+id/spinGender"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:ccp_textSize="24sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/inputPhoneNumber"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:inputType="phone"
+                app:met_floatingLabel="normal"
+                app:met_iconLeft="@drawable/ic_phone"
+                app:met_iconPadding="0dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <CheckBox
+            android:id="@+id/cbSubscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="I would like to receive offers from the Sandbox!" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbTerms"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="I accept to these " />
+
+            <TextView
+                android:id="@+id/texTOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms of Service" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:backgroundTint="@color/buttonColor"/>
+
+    </LinearLayout>
+</ScrollView>
